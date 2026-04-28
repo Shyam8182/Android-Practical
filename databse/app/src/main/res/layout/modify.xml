@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:id="@+id/tvroll"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Roll No"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="left"></TextView>
+
+
+
+    <Spinner
+        android:id="@+id/sp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/tvroll"
+        android:layout_marginLeft="10dp"
+        />
+
+
+
+    <TextView android:id="@+id/tvname"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Name"
+
+        android:layout_marginTop="60dp"
+        android:layout_gravity="left"></TextView>
+
+    <EditText
+        android:id="@+id/edname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@+id/tvname">
+
+
+    </EditText>
+
+    <TextView android:id="@+id/tvcity"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="City"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="left"></TextView>
+
+    <EditText
+        android:id="@+id/edcity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@+id/tvcity">
+
+
+    </EditText>
+
+    <TextView android:id="@+id/tvcpi"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Cpi"
+        android:layout_marginTop="140dp"
+        android:layout_gravity="left"></TextView>
+
+    <EditText
+        android:id="@+id/edcpi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_toRightOf="@+id/tvcpi">
+
+
+    </EditText>
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_marginTop="180dp"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btnupdate"
+        android:layout_below="@+id/btnupdate"
+        android:layout_marginTop="21dp"
+        android:text="Delete" />
+
+
+</RelativeLayout>
